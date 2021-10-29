@@ -24,7 +24,7 @@ module.exports = {
             average_speed,
             status,
             currenty_fly) VALUES("Suzann", "955 Springview
-            Junction, 90, 3.8, 11.6, "failed"), 94`)
+            Junction, 90, 3.8, 11.6, "failed", 94)`)
                 /*
             "customer_name": "Suzann", "customer_address": "955 Springview
             Junction", "battery": 90, "max_speed": 3.8, "average_speed": 11.6,
