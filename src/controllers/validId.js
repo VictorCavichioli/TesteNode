@@ -15,7 +15,7 @@ module.exports = {
         }*/
 
         if(!ExistIds){
-            // Get no banco
+            // INSERT no banco
             await db.run(`INSERT INTO drones(
             customer_name ,
             customer_adress,
