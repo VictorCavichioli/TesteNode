@@ -1,7 +1,9 @@
 const Database = require("../db/config")
 
 module.exports = {
+    
     async validar(NumberId){
+        NumberId = 1
         const db = await Database()
     
         // verifica se esse numero ja existe
