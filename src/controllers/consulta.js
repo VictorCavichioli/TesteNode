@@ -5,16 +5,16 @@ let db = new sqlite3.Database('./src/db/drones.sqlite');
 
 let sql = `SELECT * FROM drones
            WHERE id  = ?`;
-let playlistId = 1;
+let droneId = 1;
 
 // first row only
-db.get(sql, [playlistId], (err, row) => {
+db.get(sql, [droneId], (err, row) => {
   if (err) {
     return console.error(err.message);
   }
   return row
     ? console.log(row.id, row.name)
-    : console.log(`Sem drones encontrados com o ID: ${playlistId}`);
+    : console.log(`Sem drones encontrados com o ID: ${droneId}`);
 
 });
 
