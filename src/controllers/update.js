@@ -18,7 +18,7 @@ average_speed = ${average_speed},
 status = '${status}',
 currenty_fly = ${current_fly}
 WHERE id = ?`;
-let droneId = 2;
+let droneId = 1;
 
 // first row only
 db.all(sql, [droneId], (err) => {

@@ -4,7 +4,7 @@ const sqlite3 = require('sqlite3').verbose();
 let db = new sqlite3.Database('./src/db/drones.sqlite');
 
 let sql = `SELECT * FROM drones WHERE id  = ?`;
-let droneId = 1;
+let droneId = 2;
 
 // first row only
 db.all(sql, [droneId], (err, row) => {

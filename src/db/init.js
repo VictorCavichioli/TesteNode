@@ -5,7 +5,7 @@ const initDb = {
         const db = await Database()
 
         await db.exec(`CREATE TABLE drones (
-            id INT IDENTIFY(1,1) PRIMARY KEY,
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
             customer_name TEXT,
             customer_adress TEXT,
             battery TEXT,
