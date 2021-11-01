@@ -9,8 +9,8 @@ db.run(`INSERT INTO drones(id, customer_name ,
     max_speed,
     average_speed,
     status,
-    currenty_fly) VALUES(1, "Suzann", "955 Springview
-    Junction", 90, 3.8, 11.6, "failed", 94)`, function(err) {
+    currenty_fly) VALUES(2, "Daniel", "152 Alpha Ville", 
+    72, 3.8, 11.6, "Deployed", 85)`, function(err) {
   if (err) {
     return console.log(err.message);
   }
@@ -20,3 +20,8 @@ db.run(`INSERT INTO drones(id, customer_name ,
 
 // close the database connection
 db.close();
+
+/*
+1, "Suzann", "955 Springview Junction", 
+    90, 3.8, 11.6, "failed", 94
+*/
