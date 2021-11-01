@@ -7,7 +7,7 @@ let db = new sqlite3.Database('./src/db/drones.sqlite');
 let battery = 25
 let max_speed = 2
 let average_speed = 15
-let status = 'Suscess'
+let status = 'sucesso'
 let current_fly = 98
 
 
@@ -15,7 +15,7 @@ let sql = `UPDATE drones
 SET battery = ${battery},
 max_speed = ${max_speed},
 average_speed = ${average_speed},
-status = ${status},
+status = '${status}',
 currenty_fly = ${current_fly}
 WHERE id = ?`;
 let droneId = 2;
