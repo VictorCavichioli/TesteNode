@@ -22,6 +22,11 @@ db.run(`INSERT INTO drones(id, customer_name ,
 db.close();
 
 /*
+ 2, "Daniel", "152 Alpha Ville", 
+    72, 3.8, 11.6, "Deployed", 85
+ */
+
+/*
 1, "Suzann", "955 Springview Junction", 
     90, 3.8, 11.6, "failed", 94
 */
