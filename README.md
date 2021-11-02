@@ -18,6 +18,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - NodeJS
 - Express
 - SQLite
+- Beekeeper
+- Visual Studio Code
 
 ## 💻 Projeto
 
