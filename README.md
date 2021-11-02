@@ -113,3 +113,13 @@ Utilizando novamente o Beekeeper podemos ver o antes e depois: </br>
   <img src="https://github.com/VictorCavichioli/TesteNode/blob/main/images/after-delete.png" />
 </p>
 
+### Clonar o repositório do GitHub:
+1. No GitBash ou Power Shell execute:
+```
+git init
+```
+2. Clone o repositório
+```
+git clone https://github.com/VictorCavichioli/TesteNode
+```
+
