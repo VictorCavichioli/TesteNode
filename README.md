@@ -1,4 +1,23 @@
-# TesteNode
+<h1 align="center">
+  <img alt="NodeSolucx" title="NodeSolucx" src="https://github.com/VictorCavichioli/TesteNode/blob/main/images/solucx.png" width="220px" />
+</h1>
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  
+</p>
+
+
+## 🚀 Tecnologias
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- JavaScript
+- NodeJS
+- Express
+- SQLite
+
+## 💻 Projeto
 
 Para alimentar a interface, desconsiderando por enquanto funções de interatividade
 com o Front-end, trazem algumas operações necessárias:
