@@ -58,12 +58,15 @@ E deve retornar no terminal o seguinte:
 </p>
 
 Para checar podemos utilizar o Beekeeper e ver o antes e depois utilizando esse mesmo UPDATE:
-
+</br>
 Antes do UPDATE:
+</br>
 <p align="center">
   <img src="https://github.com/VictorCavichioli/TesteNode/blob/main/images/before-update.png" />
 </p>
+</br>
 Depois do UPDATE:
+</br>
 <p align="center">
   <img src="https://github.com/VictorCavichioli/TesteNode/blob/main/images/after-update.png" />
 </p>
@@ -78,11 +81,15 @@ E deverá retornar no terminal o seguinte:
   <img src="https://github.com/VictorCavichioli/TesteNode/blob/main/images/delete-bd.png" />
 </p>
 Utilizando novamente o Beekeeper podemos ver o antes e depois: </br>
+</br>
 Antes do DELETE:
+</br>
 <p align="center">
   <img src="https://github.com/VictorCavichioli/TesteNode/blob/main/images/before-delete.png" />
 </p>
+</br>
 Depois do DELETE:
+</br>
 <p align="center">
   <img src="https://github.com/VictorCavichioli/TesteNode/blob/main/images/after-delete.png" />
 </p>
