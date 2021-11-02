@@ -5,6 +5,8 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-clonar">Clonar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  
   
 </p>
 
@@ -113,7 +115,7 @@ Utilizando novamente o Beekeeper podemos ver o antes e depois: </br>
   <img src="https://github.com/VictorCavichioli/TesteNode/blob/main/images/after-delete.png" />
 </p>
 
-### Clonar o repositório do GitHub:
+## 🔖 Clonar
 1. No GitBash ou Power Shell execute:
 ```
 git init
