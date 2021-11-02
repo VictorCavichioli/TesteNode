@@ -7,7 +7,7 @@ let db = new sqlite3.Database('./src/db/drones.sqlite', (err) => {
   }
 });
 
-let id = 1;
+let id = 2;
 // delete a row based on id
 db.run(`DELETE FROM drones WHERE id=?`, id, function(err) {
   if (err) {
