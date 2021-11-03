@@ -6,10 +6,10 @@
   "scripts": {
     "start": "nodemon .",
     "init-db": "node src/db/init.js",
-    "insert": "node src/controllers/insert.js",
-    "select": "node src/controllers/select.js",
-    "delete": "node src/controllers/delete.js",
-    "update": "node src/controllers/update.js"
+    "insert": "node src/repository/insert.js",
+    "select": "node src/repository/select.js",
+    "delete": "node src/repository/delete.js",
+    "update": "node src/repository/update.js"
 
   },
   "keywords": [],

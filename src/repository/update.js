@@ -7,7 +7,7 @@ let db = new sqlite3.Database('./src/db/drones.sqlite');
 let battery = 25
 let max_speed = 2
 let average_speed = 15
-let status = 'sucesso'
+let status = 'SUCCESS'
 let current_fly = 98
 
 

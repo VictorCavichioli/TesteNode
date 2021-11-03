@@ -12,8 +12,15 @@ const initDb = {
             max_speed DECIMAL,
             average_speed DECIMAL,
             status TEXT,
-            currenty_fly TEXT
+            currenty_fly INTEGER,
+            FOREIGN KEY(currenty_fly) REFERENCES fly(id)
         )`);
+            /*Declaração da chave estrangeira */
+        await db.exec(`CREATE TABLE fly (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            description TEXT
+        )`);
+
 
         
 
