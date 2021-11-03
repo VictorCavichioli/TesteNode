@@ -16,8 +16,8 @@ db.run(`INSERT INTO drones(customer_name ,
     max_speed,
     average_speed,
     status,
-    currenty_fly) VALUES("Daniel", "152 Alpha Ville", 
-    72, 3.8, 11.6, "DEPLOYED", 1)`, function(err) {
+    currenty_fly) VALUES("DANIEL", "152 ALPHA VILLE", 
+    72, 3.8, 11.6, "DEPLOYED" 1)`, function(err) {
   if (err) {
     return console.log(err.message);
   }
@@ -29,11 +29,11 @@ db.run(`INSERT INTO drones(customer_name ,
 db.close();
 
 /*
- 2, "Daniel", "152 Alpha Ville", 
-    72, 3.8, 11.6, "Deployed", 85
+ 2, "DANIEL", "152 ALPHA VILLE", 
+    72, 3.8, 11.6, "DEPLOYED", 85
  */
 
 /*
-1, "Suzann", "955 Springview Junction", 
-    90, 3.8, 11.6, "failed", 94
+1, "SUZANN", "955 SPRINGVIEW JUNCTION", 
+    90, 3.8, 11.6, "FAILED", 94
 */

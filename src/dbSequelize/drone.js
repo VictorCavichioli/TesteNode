@@ -1,6 +1,21 @@
 const Sequelize = require('sequelize')
 const database = require('db')
 
+const Fly = database.define('fly',{
+    id:{
+        type: Sequelize.INTEGER,
+        autoIncrement: true,
+        allowNull: false,
+        primaryKey: true
+    },
+    description:{
+        type: Sequelize.STRING
+        
+    }
+
+})
+
+
 const Drones = database.define('drone', {
     id:{
         type: Sequelize.INTEGER,
