@@ -17,7 +17,7 @@ db.run(`INSERT INTO drones(customer_name ,
     average_speed,
     status,
     currenty_fly) VALUES("DANIEL", "152 ALPHA VILLE", 
-    72, 3.8, 11.6, "DEPLOYED" 1)`, function(err) {
+    72, 3.8, 11.6, "DEPLOYED", 1)`, function(err) {
   if (err) {
     return console.log(err.message);
   }
